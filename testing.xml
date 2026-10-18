@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Flight Booking System Automation Suite" verbose="1" preserve-order="true">
+    <test name="BlazeDemo Flight Booking Tests">
+        <classes>
+            <class name="tests.HomePageTest"/>
+            <class name="tests.FlightSearchTest"/>
+            <class name="tests.FlightSelectionTest"/>
+            <class name="tests.BookingFormTest"/>
+            <class name="tests.BookingConfirmationTest"/>
+            <class name="tests.AdditionalScenariosTest"/>
+            <class name="tests.NonFunctionalTest"/>
+            <class name="tests.SearchFormBehaviourTest"/>
+            <class name="tests.ResultsDataIntegrityTest"/>
+            <class name="tests.FormInputBehaviourTest"/>
+            <class name="tests.NavigationAndEndToEndTest"/>
+        </classes>
+    </test>
+</suite>
